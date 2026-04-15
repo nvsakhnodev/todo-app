@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>                                                                         <!-- Структура сайта-->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width", initial-scale="1.0" /> <!-- чтобы было смотрибельно на телефоне-->
+        <title>To do app</title>
+        <link rel="stylesheet" href="style.css" /> 
+    </head>
+    <body>                                                                         <!-- что увидит пользователь-->
+        <div class="container">
+            <h1>To do App</h1>
+
+            <div class="todo-form">
+            <input type="text" id="taskInput" placeholder="Добавить задачу" />
+            <button id="addTaskBtn">Добавить задачу</button>
+            </div>
+
+            <ul id="taskList"></ul>                                    <!-- Пока пустой список, где позже будут задачи-->
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
