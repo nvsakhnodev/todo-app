@@ -1,4 +1,100 @@
-li.completed .task-text {
-    text-decoration: line-through;
-    color:aquamarine;
+body {                                
+    font-family: Arial, sans-serif;
+    background: #F5F7FA;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;       /* прижимаю сверху */
+    padding-top: 50px;
+}
+
+.container {
+    background: #FFFFFF;
+    padding: 25px;                 /* внутренние отступы */
+    border-radius: 10px;           /* округление */
+    width: 400px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+    text-align: center;           /* текст по центру в заголовке */
+    color: #1f2937;
+    padding-bottom: 20px;
+}
+
+.todo-form {
+    display: flex;
+    gap: 10px;                   /* расстояние между кнопками */
+    padding-bottom: 20px;
+}
+
+
+/* #taskInput   → id */
+/* .task-text   → class */
+
+#taskInput {
+    flex: 1;                     /* занимает все свободное место */
+    padding: 10px;
+    border: 1px solid #D1D5D8; /* рамочка */
+    font-size: 14px;             /* размер текста */
+}
+
+#addTaskBtn {
+    background: #2563EB;
+    color:white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;            /* плавная анимация */
+}
+
+#addTaskBtn:hover {              /* при наведении становится темнее */
+    background: #1D4ED8;
+}
+
+#addTaskBtn:active {
+    transform: scale(0.95);
+}
+
+li {
+    display: flex;
+    justify-content: space-between; /* текст слева кнопка справа */
+    align-items: center;
+    padding: 10px;
+    background: #f9fafb;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.completed .task-text {
+    text-decoration: line-through;  /* зачеркивание */
+    color: #9CA3AF;
+}
+
+.delete-btn {
+    background: transparent;
+    color: #9CA3AF;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background: #DC2626;
+}
+
+#clearBtn {
+    padding-top: 10px;
+    width: 100%;
+    background: #E5E7EB;
+    color: #374151;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.clearBtn:hover {
+    background: #FEE2E2;
+    color: #B91C1C;
 }
