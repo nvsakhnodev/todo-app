@@ -5,7 +5,7 @@
 ---
 
 ## 🚀 Demo
-👉 https://nvsakhnodev.github.io/APP-To-do/
+👉 [https://nvsakhnodev.github.io/APP-To-do/](https://nvsakhnodev.github.io/todo-app/)
 
 ---
 
