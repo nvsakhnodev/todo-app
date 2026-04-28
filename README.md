@@ -8,6 +8,8 @@
 
  [Ссылка на демо-версию](https://nvsakhnodev.github.io/todo-app/)
 
+<img width="588" height="506" alt="image" src="https://github.com/user-attachments/assets/1c45d60d-3e1d-4d5d-86c1-a43d6f92a0a3" />
+
 ---
 
 ##  Возможности
